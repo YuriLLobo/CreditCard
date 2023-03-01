@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Phudu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(94,198,142,1) 0%, rgba(69,159,153,1) 47%, rgba(189,244,255,1) 100%);
+    min-height: 100vh;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 800px;
+width: 1280px;
+margin: 0 auto;
+margin-top: 5%;
+background: rgba(241, 176, 251, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(241, 176, 251, 0.3);
+}
+
+.title{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 80px;
+    font-family: 'Phudu', sans-serif;
+    color: whitesmoke;
+}
+
+.chip{
+    position: absolute;
+    height: 80px;
+    left: 50px;
+    top: 220px;
+}
+
+.nfc {
+    position: absolute;
+    height: 90px;
+    left: 140px;
+    top: 215px;
+
+}
+
+.numbers {
+    width: 900px;
+    font-family: 'Abel', sans-serif;
+    position: absolute;
+    top: 430px;
+    color: whitesmoke;
+    font-size: 70px;
+}
+
+.numberspos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.visa{
+    height: 140px;
+    position: absolute;
+    top: 650px;
+    right: 50px;
+}
+
+.name {
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    position: absolute;
+    left: 80px;
+    bottom: 65px;
+}
+
+.valid{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 70px;
+    font-size: 10px;
+}
+
+.date{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 67px;
+    right: 559px;
+    font-size: 23px;
+}
